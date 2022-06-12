@@ -1,8 +1,192 @@
-h1 {
+@font-face {
+    font-family: Joan-Regular;
+    src: url("assets/fonts/Joan-Regular.ttf");
+}
+html {
+    scroll-behavior: smooth; 
+  }
+body {
+    font-family: 'Joan-Regular';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: rgb(92, 92, 249); */
+    background-color: #48036F
+}
+* {
+    box-sizing: border-box;
+}
+.header {
+    width: 500px;
+    height: 720px;
+    background-color: #AD66D5;
+    border: 1px solid #48036F;
+    border-radius: 5px;
+    position: relative;
+    left: 7px;
+    top: 7px;
+    /* text-align: center; */
+}
+.main {
+    width: 956px;
+    height: 720px;
+    background-color: white;
+    position:absolute;
+    left: 517px;
+    top: 7px;
+    border-radius: 5px;
+}
+.footer {
+    width: 100%;
+    height: 75px;
+    background-color: #5F2580;
+    margin: 0px;
+    position: relative;
+    top: 17px;
+}
+/* style for header */
+.nav {
+    width: 400;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 250px;
+    margin: 130px 166px 10px;
+}
+.nav-list {
+    display: inline-block;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0px;
+}
+.nav-item {
+    text-align: center;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: .3s;
+    border: 1px solid blue;
+    background-color: blue;
+    border-radius: 40px;
+    border-width: 1px;
+}
+.nav-link:hover {
+    background-color: darkblue;
+    border-color: darkblue;
+}
+img {
+    display: block;
+    max-width: 100%;
+    padding: 1px;
+    margin: 10px auto;
+    border-radius: 100%;
+}
+.photo {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0 auto;
+}
+.name {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+/* style for main */
+.main-container {
+    max-width: 956px;
+    margin: 10px 60px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section {
+    width: 50%;
+    margin: 15px 0px;
+}
+/* Contacts */
+.contacts-list {
+    padding: 0;
+}
+.country {
+    list-style: none;
+    line-height: 30px;
+    background: url(assets/PNG/country.png) no-repeat 0 50%;
+    padding-left: 32px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 36px;
+}
+.email {
+    list-style: none;
+    line-height: 30px;
+    background: url(assets/PNG/email.png) no-repeat 0 50%;
+    padding-left: 32px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 36px;
+}
+.email-link {
+    text-decoration: none;
+    color: black;
     font-style: italic;
-    font-weight: bolder;
-    text-align: center;
 }
-h2 {
-    text-align: center;
+.github {
+    list-style: none;
+    line-height: 30px;
+    background: url(assets/PNG/github.png) no-repeat 0 50%;
+    padding-left: 32px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 36px;
 }
+.github-link {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+.tg {
+    list-style: none;
+    line-height: 30px;
+    background: url(assets/PNG/tg.png) no-repeat 0 50%;
+    padding-left: 32px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 36px;
+}
+.tg-link {
+    text-decoration: none;
+    color: black;
+    font-style: italic;    
+}
+.ds {
+    list-style: none;
+    line-height: 30px;
+    background: url(assets/PNG/ds.png) no-repeat 0 50%;
+    padding-left: 32px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 36px;
+}
+/* Summary */
+/* Skills */
+.skills-list {
+    padding: 0;
+}
+.soft-skills {
+    list-style: none;
+}
+.web-development {
+    list-style: none;
+}
+.description {
+    color: #AD66D5;
+    font-weight: 600;
+}
+/* courses */
+/* Education */
