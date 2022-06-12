@@ -190,3 +190,29 @@ img {
 }
 /* courses */
 /* Education */
+/* footer */
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.footer-paragraph {
+    margin: 29px 30px;
+    color: aliceblue;
+}
+.footer-link {
+    text-decoration: none;
+    color: aliceblue; 
+}
+.footer-link:hover {
+    font-style: italic;
+}
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/SVG/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 20px;
+    left: 1340px;
+  }
